@@ -1,0 +1,121 @@
+/* Define @font-face for YourFont-Regular */
+@font-face {
+  font-family: "nextra";
+  src: url("./Nexa-ExtraLight.ttf") format("truetype");
+  /* Add more formats as needed */
+}
+
+p,
+button,
+a {
+  font-family: "Quicksand", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "nextra", sans-serif;
+}
+
+header,
+.bg-custom {
+  background: linear-gradient(rgb(255, 238, 227), rgb(255, 255, 255));
+}
+
+.btn-warning {
+  background-color: #fe8c45 !important;
+}
+.text-primary {
+  color: #8a47f6 !important;
+}
+.bg-primary {
+  background-color: #8a47f6 !important;
+}
+h1.custom_heading {
+  font-size: 65px;
+  font-weight: 900;
+  position: relative;
+}
+
+.carousel-indicators .carousel-dotted {
+  border-radius: 50%;
+  height: 15px !important;
+  width: 15px !important;
+  background-color: #e1e1e1;
+  outline: none;
+}
+.carousel-indicators .carousel-dotted:focus {
+  transform: scale(1.1) !important;
+  background-color: #8a47f6 !important;
+}
+
+.custom_heading::after {
+  content: "";
+  position: absolute;
+  bottom: 9%;
+  left: 39%;
+  background-color: #8a47f6;
+  height: 22px;
+  width: 99px;
+  border-radius: 50px;
+}
+.Skillet_photoGrahy {
+  background-color: #f3edfe;
+}
+h1.custom_heading2 {
+  font-size: 48px;
+  font-weight: 900;
+}
+.portfolio_img {
+  position: relative;
+  right: 55px;
+}
+.prices {
+  & h4 {
+    font-size: 24px;
+    font-weight: 900;
+  }
+  & h1 {
+    font-weight: 900;
+  }
+}
+
+.Indahnya {
+  background-color: #e3d4fd;
+  height: 50px;
+  padding: 3px 19px 2px 4px;
+  border-radius: 26px;
+}
+textarea {
+  height: 170px;
+}
+.location {
+  background-color: #ede3fe;
+}
+.icone {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  line-height: 14px;
+  font-size: 25px;
+  color: #fff;
+  /* padding: 10px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icone2 {
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    line-height: 14px;
+    font-size: 25px;
+    background-color: #fff !important;
+    color: #000;
+    /* padding: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
