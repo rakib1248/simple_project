@@ -107,15 +107,30 @@ textarea {
   align-items: center;
 }
 .icone2 {
-    height: 65px;
-    width: 65px;
-    border-radius: 50%;
-    line-height: 14px;
-    font-size: 25px;
-    background-color: #fff !important;
-    color: #000;
-    /* padding: 10px; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  line-height: 14px;
+  font-size: 25px;
+  background-color: #fff !important;
+  color: #000;
+  /* padding: 10px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* responsive css */
+@media (min-width: 576px) {
+  button.btn.btn-warning.rounded-5.text-white.px-4.fw-light {
+    margin-bottom: 18px;
+  }
+  .location {
+    margin-top: 15px !important;
+  }
+  footer {
+    text-align: center !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
 }
